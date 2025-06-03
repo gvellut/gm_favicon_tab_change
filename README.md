@@ -14,7 +14,7 @@ After:
 
 You **must** configure the base URL where your custom favicons are hosted.
 
-*   Open the `gm_favicon_tab_change.js` script for editing in your UserScript manager.
+*   Open the `userscript.js` script for editing in your UserScript manager.
 *   Find the following line at the top of the script:
     ```javascript
     const CUSTOM_FAVICON_BASE_URL = "https://fmushosting.vellut.com/docicons";
@@ -69,7 +69,7 @@ The `main.py` script is a command-line tool that generates `.png` favicon images
     *   For detailed options, run: `python main.py --help`
 
 3.  **Upload Your Icons:**
-    *   After generating and correctly renaming your icons, upload them to the directory specified by your `CUSTOM_FAVICON_BASE_URL` (which you configured in the `gm_favicon_tab_change.js` UserScript).
+    *   After generating and correctly renaming your icons, upload them to the directory specified by your `CUSTOM_FAVICON_BASE_URL` (which you configured in the `userscript.js` UserScript).
 
 ### Manual Icon Creation
 
